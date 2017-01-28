@@ -10,6 +10,6 @@ int main(void)
 		x = x - d;
 		printf("%1.2f\n", x);
 	}
-	printf("Press any key to terminate\n");
+	printf("Press Enter to terminate\n");
 	getchar();
 }

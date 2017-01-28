@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1E207E7B-3E3F-40C1-83A9-F8C813C57AC8}</ProjectGuid>
+    <ProjectGuid>{D6D7E812-E6C1-4079-8B57-31AE0A5E3CC1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestBed</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\TestBed\Main.c" />
+    <ClCompile Include="..\..\..\..\TestBed\Main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
