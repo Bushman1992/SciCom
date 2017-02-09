@@ -147,8 +147,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Source\Examples\Example1a.c" />
-    <ClCompile Include="..\..\..\..\Source\Examples\Example2.c" />
+    <ClCompile Include="..\..\..\..\Source\Examples\Example2a.c" />
+    <ClCompile Include="..\..\..\..\Source\Examples\Example2b\Example2b.c" />
+    <ClCompile Include="..\..\..\..\Source\Examples\Example2b\Example2Lib.c" />
     <ClCompile Include="..\..\..\..\TestBed\Main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Examples\Example2b\Example2Lib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
